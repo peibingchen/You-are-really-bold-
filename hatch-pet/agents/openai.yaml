@@ -1,0 +1,4 @@
+interface:
+  display_name: "Hatch Pet"
+  short_description: "Hatch and smooth Codex pets"
+  default_prompt: "Use $hatch-pet to create or repair a Codex v2 pet, including smooth desktop idle playback when requested."

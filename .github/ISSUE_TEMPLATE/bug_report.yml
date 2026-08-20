@@ -1,0 +1,31 @@
+name: Bug report
+description: Report an installation, animation, or asset problem.
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the visible behavior and what you expected instead.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, ChatGPT/Codex surface, and app build if known.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction steps
+      placeholder: "1. Install…\n2. Wake Feidudu…\n3. Observe…"
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshots or recordings
+      description: Attach a short recording for motion or trigger problems when possible.

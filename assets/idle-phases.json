@@ -1,0 +1,104 @@
+{
+  "phases": [
+    {
+      "label": "closed-mouth-rest",
+      "image": "frames/idle/00.png",
+      "duration_ms": 80
+    },
+    {
+      "label": "breathing-lift",
+      "image": "frames/idle/01.png",
+      "duration_ms": 80
+    },
+    {
+      "label": "blink",
+      "image": "frames/idle/02.png",
+      "duration_ms": 80
+    },
+    {
+      "label": "mouth-open",
+      "image": "frames/idle/03.png",
+      "duration_ms": 80
+    },
+    {
+      "label": "mouth-close",
+      "image": "frames/idle/04.png",
+      "duration_ms": 80
+    },
+    {
+      "label": "wave-rest",
+      "image": "frames/idle/05.png",
+      "duration_ms": 80
+    },
+    {
+      "label": "wave-quarter-lift",
+      "image": "frames/idle/06.png",
+      "duration_ms": 80
+    },
+    {
+      "label": "wave-half-lift",
+      "image": "frames/idle/07.png",
+      "duration_ms": 80
+    },
+    {
+      "label": "wave-apex-out",
+      "image": "frames/idle/08.png",
+      "duration_ms": 80
+    },
+    {
+      "label": "wave-apex-center-1",
+      "image": "frames/idle/09.png",
+      "duration_ms": 80
+    },
+    {
+      "label": "wave-apex-in",
+      "image": "frames/idle/10.png",
+      "duration_ms": 80
+    },
+    {
+      "label": "wave-apex-center-2",
+      "image": "frames/idle/11.png",
+      "duration_ms": 80
+    },
+    {
+      "label": "wave-apex-out-return",
+      "image": "frames/idle/12.png",
+      "duration_ms": 80
+    },
+    {
+      "label": "wave-half-lower",
+      "image": "frames/idle/13.png",
+      "duration_ms": 80
+    },
+    {
+      "label": "wave-rest-return",
+      "image": "frames/idle/14.png",
+      "duration_ms": 80
+    },
+    {
+      "label": "neutral-return",
+      "image": "frames/idle/15.png",
+      "duration_ms": 80
+    },
+    {
+      "label": "rest-loop",
+      "image": "frames/idle/16.png",
+      "duration_ms": 80
+    },
+    {
+      "label": "breathing-loop",
+      "image": "frames/idle/17.png",
+      "duration_ms": 80
+    },
+    {
+      "label": "rest-hold-1",
+      "image": "frames/idle/18.png",
+      "duration_ms": 80
+    },
+    {
+      "label": "rest-hold-2",
+      "image": "frames/idle/19.png",
+      "duration_ms": 80
+    }
+  ]
+}

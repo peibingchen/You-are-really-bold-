@@ -1,0 +1,62 @@
+name: Validate pet package
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Rebuild public animation galleries
+        run: python scripts/build_gallery.py
+
+      - name: Test original-speed desktop playback patch
+        run: node hatch-pet/scripts/patch_codex_pet_playback.mjs --self-test
+
+      - name: Validate static sprite atlas
+        run: >-
+          python hatch-pet/scripts/validate_atlas.py
+          assets/spritesheet-static.webp
+          --chroma-key '#FF00FF'
+          --require-v2
+
+      - name: Validate animated runtime structure
+        run: >-
+          python hatch-pet/scripts/validate_atlas.py
+          pet/spritesheet.webp
+          --chroma-key '#FF00FF'
+          --require-v2
+          --allow-animated
+          --allow-transparent-rgb-residue
+
+      - name: Validate synchronized native-state runtime
+        run: >-
+          python hatch-pet/scripts/validate_smooth_state_webp.py
+          pet/spritesheet.webp
+          --source-atlas assets/spritesheet-static.webp
+          --phase-manifest assets/state-phases.json
+          --require-all-states
+          --min-motion-clips 12
+          --max-motion-clips 15
+
+      - name: Run hatch-pet regression tests
+        run: python -m unittest discover -s hatch-pet/tests -v

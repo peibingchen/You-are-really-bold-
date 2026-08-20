@@ -1,0 +1,20 @@
+{
+  "ok": true,
+  "source_dir": "D:\\ChatGPT-Pets\\HatchPet-Feidudu-main\\assets\\frames\\running-right",
+  "output_dir": "D:\\ChatGPT-Pets\\HatchPet-Feidudu-main\\assets\\frames\\running-left",
+  "phase_count": 8,
+  "phase_order_preserved": true,
+  "transform": "framewise-horizontal-mirror-preserving-order",
+  "decision_note": "Feidudu has symmetric markings, no handed clothing, and the approved rightward loop can be mirrored framewise while preserving the gait clock.",
+  "completed_at": "2026-08-19T19:48:09.808090+00:00",
+  "outputs": [
+    "D:\\ChatGPT-Pets\\HatchPet-Feidudu-main\\assets\\frames\\running-left\\00.png",
+    "D:\\ChatGPT-Pets\\HatchPet-Feidudu-main\\assets\\frames\\running-left\\01.png",
+    "D:\\ChatGPT-Pets\\HatchPet-Feidudu-main\\assets\\frames\\running-left\\02.png",
+    "D:\\ChatGPT-Pets\\HatchPet-Feidudu-main\\assets\\frames\\running-left\\03.png",
+    "D:\\ChatGPT-Pets\\HatchPet-Feidudu-main\\assets\\frames\\running-left\\04.png",
+    "D:\\ChatGPT-Pets\\HatchPet-Feidudu-main\\assets\\frames\\running-left\\05.png",
+    "D:\\ChatGPT-Pets\\HatchPet-Feidudu-main\\assets\\frames\\running-left\\06.png",
+    "D:\\ChatGPT-Pets\\HatchPet-Feidudu-main\\assets\\frames\\running-left\\07.png"
+  ]
+}

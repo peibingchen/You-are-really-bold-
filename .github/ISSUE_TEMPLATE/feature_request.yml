@@ -1,0 +1,19 @@
+name: Feature request
+description: Propose a new Feidudu interaction, pose, or project improvement.
+title: "[Feature] "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Proposed change
+      description: Explain the user-visible behavior and when it should trigger.
+    validations:
+      required: true
+  - type: textarea
+    id: identity
+    attributes:
+      label: Identity and motion notes
+      description: Explain how the idea preserves Feidudu's body, fixed limbs, tail, baseline, and loop continuity.
+    validations:
+      required: true

@@ -1,0 +1,67 @@
+{
+  "ok": true,
+  "runtime_atlas": "D:\\ChatGPT-Pets\\HatchPet-Feidudu-main\\pet\\spritesheet.webp",
+  "frame_count": 20,
+  "durations_ms": [
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80
+  ],
+  "loop_duration_ms": 1600,
+  "loop": 0,
+  "states": {
+    "idle": {
+      "animation": "D:\\ChatGPT-Pets\\HatchPet-Feidudu-main\\assets\\runtime-previews\\idle.webp",
+      "phase_sheet": "D:\\ChatGPT-Pets\\HatchPet-Feidudu-main\\assets\\runtime-previews\\idle-phases.png"
+    },
+    "running-right": {
+      "animation": "D:\\ChatGPT-Pets\\HatchPet-Feidudu-main\\assets\\runtime-previews\\running-right.webp",
+      "phase_sheet": "D:\\ChatGPT-Pets\\HatchPet-Feidudu-main\\assets\\runtime-previews\\running-right-phases.png"
+    },
+    "running-left": {
+      "animation": "D:\\ChatGPT-Pets\\HatchPet-Feidudu-main\\assets\\runtime-previews\\running-left.webp",
+      "phase_sheet": "D:\\ChatGPT-Pets\\HatchPet-Feidudu-main\\assets\\runtime-previews\\running-left-phases.png"
+    },
+    "waving": {
+      "animation": "D:\\ChatGPT-Pets\\HatchPet-Feidudu-main\\assets\\runtime-previews\\waving.webp",
+      "phase_sheet": "D:\\ChatGPT-Pets\\HatchPet-Feidudu-main\\assets\\runtime-previews\\waving-phases.png"
+    },
+    "jumping": {
+      "animation": "D:\\ChatGPT-Pets\\HatchPet-Feidudu-main\\assets\\runtime-previews\\jumping.webp",
+      "phase_sheet": "D:\\ChatGPT-Pets\\HatchPet-Feidudu-main\\assets\\runtime-previews\\jumping-phases.png"
+    },
+    "failed": {
+      "animation": "D:\\ChatGPT-Pets\\HatchPet-Feidudu-main\\assets\\runtime-previews\\failed.webp",
+      "phase_sheet": "D:\\ChatGPT-Pets\\HatchPet-Feidudu-main\\assets\\runtime-previews\\failed-phases.png"
+    },
+    "waiting": {
+      "animation": "D:\\ChatGPT-Pets\\HatchPet-Feidudu-main\\assets\\runtime-previews\\waiting.webp",
+      "phase_sheet": "D:\\ChatGPT-Pets\\HatchPet-Feidudu-main\\assets\\runtime-previews\\waiting-phases.png"
+    },
+    "running": {
+      "animation": "D:\\ChatGPT-Pets\\HatchPet-Feidudu-main\\assets\\runtime-previews\\running.webp",
+      "phase_sheet": "D:\\ChatGPT-Pets\\HatchPet-Feidudu-main\\assets\\runtime-previews\\running-phases.png"
+    },
+    "review": {
+      "animation": "D:\\ChatGPT-Pets\\HatchPet-Feidudu-main\\assets\\runtime-previews\\review.webp",
+      "phase_sheet": "D:\\ChatGPT-Pets\\HatchPet-Feidudu-main\\assets\\runtime-previews\\review-phases.png"
+    }
+  }
+}

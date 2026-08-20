@@ -1,0 +1,1006 @@
+{
+  "ok": true,
+  "file": "D:\\ChatGPT-Pets\\HatchPet-Feidudu-main\\pet\\spritesheet.webp",
+  "format": "WEBP",
+  "animated": true,
+  "frame_count": 20,
+  "durations_ms": [
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80
+  ],
+  "loop_duration_ms": 1600,
+  "loop": 0,
+  "phase_labels": [
+    "t00",
+    "t01",
+    "t02",
+    "t03",
+    "t04",
+    "t05",
+    "t06",
+    "t07",
+    "t08",
+    "t09",
+    "t10",
+    "t11",
+    "t12",
+    "t13",
+    "t14",
+    "t15",
+    "t16",
+    "t17",
+    "t18",
+    "t19"
+  ],
+  "states": [
+    {
+      "state": "idle",
+      "atlas_row": 0,
+      "renderer_columns": 6,
+      "sources": [
+        {
+          "atlas_row": 0,
+          "atlas_column": 0
+        },
+        {
+          "atlas_row": 0,
+          "atlas_column": 1
+        },
+        {
+          "atlas_row": 0,
+          "atlas_column": 2
+        },
+        {
+          "atlas_row": 0,
+          "atlas_column": 2
+        },
+        {
+          "atlas_row": 0,
+          "atlas_column": 1
+        },
+        {
+          "atlas_row": 0,
+          "atlas_column": 0
+        },
+        {
+          "atlas_row": 0,
+          "atlas_column": 3
+        },
+        {
+          "atlas_row": 0,
+          "atlas_column": 3
+        },
+        {
+          "atlas_row": 0,
+          "atlas_column": 4
+        },
+        {
+          "atlas_row": 0,
+          "atlas_column": 5
+        },
+        {
+          "atlas_row": 0,
+          "atlas_column": 4
+        },
+        {
+          "atlas_row": 0,
+          "atlas_column": 3
+        },
+        {
+          "atlas_row": 0,
+          "atlas_column": 1
+        },
+        {
+          "atlas_row": 0,
+          "atlas_column": 0
+        },
+        {
+          "atlas_row": 0,
+          "atlas_column": 1
+        },
+        {
+          "atlas_row": 0,
+          "atlas_column": 0
+        },
+        {
+          "atlas_row": 0,
+          "atlas_column": 1
+        },
+        {
+          "atlas_row": 0,
+          "atlas_column": 0
+        },
+        {
+          "atlas_row": 0,
+          "atlas_column": 0
+        },
+        {
+          "atlas_row": 0,
+          "atlas_column": 0
+        }
+      ]
+    },
+    {
+      "state": "running-right",
+      "atlas_row": 1,
+      "renderer_columns": 8,
+      "sources": [
+        {
+          "atlas_row": 1,
+          "atlas_column": 0
+        },
+        {
+          "atlas_row": 1,
+          "atlas_column": 0
+        },
+        {
+          "atlas_row": 1,
+          "atlas_column": 1
+        },
+        {
+          "atlas_row": 1,
+          "atlas_column": 2
+        },
+        {
+          "atlas_row": 1,
+          "atlas_column": 3
+        },
+        {
+          "atlas_row": 1,
+          "atlas_column": 4
+        },
+        {
+          "atlas_row": 1,
+          "atlas_column": 4
+        },
+        {
+          "atlas_row": 1,
+          "atlas_column": 5
+        },
+        {
+          "atlas_row": 1,
+          "atlas_column": 6
+        },
+        {
+          "atlas_row": 1,
+          "atlas_column": 7
+        },
+        {
+          "atlas_row": 1,
+          "atlas_column": 0
+        },
+        {
+          "atlas_row": 1,
+          "atlas_column": 0
+        },
+        {
+          "atlas_row": 1,
+          "atlas_column": 1
+        },
+        {
+          "atlas_row": 1,
+          "atlas_column": 2
+        },
+        {
+          "atlas_row": 1,
+          "atlas_column": 3
+        },
+        {
+          "atlas_row": 1,
+          "atlas_column": 4
+        },
+        {
+          "atlas_row": 1,
+          "atlas_column": 4
+        },
+        {
+          "atlas_row": 1,
+          "atlas_column": 5
+        },
+        {
+          "atlas_row": 1,
+          "atlas_column": 6
+        },
+        {
+          "atlas_row": 1,
+          "atlas_column": 7
+        }
+      ]
+    },
+    {
+      "state": "running-left",
+      "atlas_row": 2,
+      "renderer_columns": 8,
+      "sources": [
+        {
+          "atlas_row": 2,
+          "atlas_column": 0
+        },
+        {
+          "atlas_row": 2,
+          "atlas_column": 0
+        },
+        {
+          "atlas_row": 2,
+          "atlas_column": 1
+        },
+        {
+          "atlas_row": 2,
+          "atlas_column": 2
+        },
+        {
+          "atlas_row": 2,
+          "atlas_column": 3
+        },
+        {
+          "atlas_row": 2,
+          "atlas_column": 4
+        },
+        {
+          "atlas_row": 2,
+          "atlas_column": 4
+        },
+        {
+          "atlas_row": 2,
+          "atlas_column": 5
+        },
+        {
+          "atlas_row": 2,
+          "atlas_column": 6
+        },
+        {
+          "atlas_row": 2,
+          "atlas_column": 7
+        },
+        {
+          "atlas_row": 2,
+          "atlas_column": 0
+        },
+        {
+          "atlas_row": 2,
+          "atlas_column": 0
+        },
+        {
+          "atlas_row": 2,
+          "atlas_column": 1
+        },
+        {
+          "atlas_row": 2,
+          "atlas_column": 2
+        },
+        {
+          "atlas_row": 2,
+          "atlas_column": 3
+        },
+        {
+          "atlas_row": 2,
+          "atlas_column": 4
+        },
+        {
+          "atlas_row": 2,
+          "atlas_column": 4
+        },
+        {
+          "atlas_row": 2,
+          "atlas_column": 5
+        },
+        {
+          "atlas_row": 2,
+          "atlas_column": 6
+        },
+        {
+          "atlas_row": 2,
+          "atlas_column": 7
+        }
+      ]
+    },
+    {
+      "state": "waving",
+      "atlas_row": 3,
+      "renderer_columns": 4,
+      "sources": [
+        {
+          "atlas_row": 3,
+          "atlas_column": 0
+        },
+        {
+          "atlas_row": 3,
+          "atlas_column": 0
+        },
+        {
+          "atlas_row": 3,
+          "atlas_column": 1
+        },
+        {
+          "atlas_row": 3,
+          "atlas_column": 1
+        },
+        {
+          "atlas_row": 3,
+          "atlas_column": 2
+        },
+        {
+          "atlas_row": 3,
+          "atlas_column": 2
+        },
+        {
+          "atlas_row": 3,
+          "atlas_column": 3
+        },
+        {
+          "atlas_row": 3,
+          "atlas_column": 3
+        },
+        {
+          "atlas_row": 3,
+          "atlas_column": 0
+        },
+        {
+          "atlas_row": 3,
+          "atlas_column": 0
+        },
+        {
+          "atlas_row": 3,
+          "atlas_column": 1
+        },
+        {
+          "atlas_row": 3,
+          "atlas_column": 1
+        },
+        {
+          "atlas_row": 3,
+          "atlas_column": 2
+        },
+        {
+          "atlas_row": 3,
+          "atlas_column": 2
+        },
+        {
+          "atlas_row": 3,
+          "atlas_column": 3
+        },
+        {
+          "atlas_row": 3,
+          "atlas_column": 3
+        },
+        {
+          "atlas_row": 3,
+          "atlas_column": 0
+        },
+        {
+          "atlas_row": 3,
+          "atlas_column": 1
+        },
+        {
+          "atlas_row": 3,
+          "atlas_column": 2
+        },
+        {
+          "atlas_row": 3,
+          "atlas_column": 3
+        }
+      ]
+    },
+    {
+      "state": "jumping",
+      "atlas_row": 4,
+      "renderer_columns": 5,
+      "sources": [
+        {
+          "atlas_row": 4,
+          "atlas_column": 0
+        },
+        {
+          "atlas_row": 4,
+          "atlas_column": 0
+        },
+        {
+          "atlas_row": 4,
+          "atlas_column": 0
+        },
+        {
+          "atlas_row": 4,
+          "atlas_column": 0
+        },
+        {
+          "atlas_row": 4,
+          "atlas_column": 1
+        },
+        {
+          "atlas_row": 4,
+          "atlas_column": 1
+        },
+        {
+          "atlas_row": 4,
+          "atlas_column": 1
+        },
+        {
+          "atlas_row": 4,
+          "atlas_column": 1
+        },
+        {
+          "atlas_row": 4,
+          "atlas_column": 2
+        },
+        {
+          "atlas_row": 4,
+          "atlas_column": 2
+        },
+        {
+          "atlas_row": 4,
+          "atlas_column": 2
+        },
+        {
+          "atlas_row": 4,
+          "atlas_column": 2
+        },
+        {
+          "atlas_row": 4,
+          "atlas_column": 3
+        },
+        {
+          "atlas_row": 4,
+          "atlas_column": 3
+        },
+        {
+          "atlas_row": 4,
+          "atlas_column": 3
+        },
+        {
+          "atlas_row": 4,
+          "atlas_column": 3
+        },
+        {
+          "atlas_row": 4,
+          "atlas_column": 4
+        },
+        {
+          "atlas_row": 4,
+          "atlas_column": 4
+        },
+        {
+          "atlas_row": 4,
+          "atlas_column": 4
+        },
+        {
+          "atlas_row": 4,
+          "atlas_column": 4
+        }
+      ]
+    },
+    {
+      "state": "failed",
+      "atlas_row": 5,
+      "renderer_columns": 8,
+      "sources": [
+        {
+          "atlas_row": 5,
+          "atlas_column": 0
+        },
+        {
+          "atlas_row": 5,
+          "atlas_column": 0
+        },
+        {
+          "atlas_row": 5,
+          "atlas_column": 0
+        },
+        {
+          "atlas_row": 5,
+          "atlas_column": 1
+        },
+        {
+          "atlas_row": 5,
+          "atlas_column": 1
+        },
+        {
+          "atlas_row": 5,
+          "atlas_column": 2
+        },
+        {
+          "atlas_row": 5,
+          "atlas_column": 2
+        },
+        {
+          "atlas_row": 5,
+          "atlas_column": 3
+        },
+        {
+          "atlas_row": 5,
+          "atlas_column": 3
+        },
+        {
+          "atlas_row": 5,
+          "atlas_column": 4
+        },
+        {
+          "atlas_row": 5,
+          "atlas_column": 4
+        },
+        {
+          "atlas_row": 5,
+          "atlas_column": 4
+        },
+        {
+          "atlas_row": 5,
+          "atlas_column": 5
+        },
+        {
+          "atlas_row": 5,
+          "atlas_column": 5
+        },
+        {
+          "atlas_row": 5,
+          "atlas_column": 6
+        },
+        {
+          "atlas_row": 5,
+          "atlas_column": 6
+        },
+        {
+          "atlas_row": 5,
+          "atlas_column": 6
+        },
+        {
+          "atlas_row": 5,
+          "atlas_column": 7
+        },
+        {
+          "atlas_row": 5,
+          "atlas_column": 7
+        },
+        {
+          "atlas_row": 5,
+          "atlas_column": 7
+        }
+      ]
+    },
+    {
+      "state": "waiting",
+      "atlas_row": 6,
+      "renderer_columns": 6,
+      "sources": [
+        {
+          "atlas_row": 6,
+          "atlas_column": 0
+        },
+        {
+          "atlas_row": 6,
+          "atlas_column": 0
+        },
+        {
+          "atlas_row": 6,
+          "atlas_column": 0
+        },
+        {
+          "atlas_row": 6,
+          "atlas_column": 0
+        },
+        {
+          "atlas_row": 6,
+          "atlas_column": 1
+        },
+        {
+          "atlas_row": 6,
+          "atlas_column": 1
+        },
+        {
+          "atlas_row": 6,
+          "atlas_column": 1
+        },
+        {
+          "atlas_row": 6,
+          "atlas_column": 2
+        },
+        {
+          "atlas_row": 6,
+          "atlas_column": 2
+        },
+        {
+          "atlas_row": 6,
+          "atlas_column": 2
+        },
+        {
+          "atlas_row": 6,
+          "atlas_column": 3
+        },
+        {
+          "atlas_row": 6,
+          "atlas_column": 3
+        },
+        {
+          "atlas_row": 6,
+          "atlas_column": 3
+        },
+        {
+          "atlas_row": 6,
+          "atlas_column": 4
+        },
+        {
+          "atlas_row": 6,
+          "atlas_column": 4
+        },
+        {
+          "atlas_row": 6,
+          "atlas_column": 4
+        },
+        {
+          "atlas_row": 6,
+          "atlas_column": 5
+        },
+        {
+          "atlas_row": 6,
+          "atlas_column": 5
+        },
+        {
+          "atlas_row": 6,
+          "atlas_column": 5
+        },
+        {
+          "atlas_row": 6,
+          "atlas_column": 5
+        }
+      ]
+    },
+    {
+      "state": "running",
+      "atlas_row": 7,
+      "renderer_columns": 6,
+      "sources": [
+        {
+          "atlas_row": 7,
+          "atlas_column": 0
+        },
+        {
+          "atlas_row": 7,
+          "atlas_column": 1
+        },
+        {
+          "atlas_row": 7,
+          "atlas_column": 0
+        },
+        {
+          "atlas_row": 7,
+          "atlas_column": 1
+        },
+        {
+          "atlas_row": 7,
+          "atlas_column": 0
+        },
+        {
+          "atlas_row": 7,
+          "atlas_column": 2
+        },
+        {
+          "atlas_row": 7,
+          "atlas_column": 2
+        },
+        {
+          "atlas_row": 7,
+          "atlas_column": 2
+        },
+        {
+          "atlas_row": 7,
+          "atlas_column": 1
+        },
+        {
+          "atlas_row": 7,
+          "atlas_column": 2
+        },
+        {
+          "atlas_row": 7,
+          "atlas_column": 3
+        },
+        {
+          "atlas_row": 7,
+          "atlas_column": 3
+        },
+        {
+          "atlas_row": 7,
+          "atlas_column": 3
+        },
+        {
+          "atlas_row": 7,
+          "atlas_column": 4
+        },
+        {
+          "atlas_row": 7,
+          "atlas_column": 3
+        },
+        {
+          "atlas_row": 7,
+          "atlas_column": 5
+        },
+        {
+          "atlas_row": 7,
+          "atlas_column": 1
+        },
+        {
+          "atlas_row": 7,
+          "atlas_column": 5
+        },
+        {
+          "atlas_row": 7,
+          "atlas_column": 1
+        },
+        {
+          "atlas_row": 7,
+          "atlas_column": 5
+        }
+      ]
+    },
+    {
+      "state": "review",
+      "atlas_row": 8,
+      "renderer_columns": 6,
+      "sources": [
+        {
+          "atlas_row": 8,
+          "atlas_column": 0
+        },
+        {
+          "atlas_row": 8,
+          "atlas_column": 0
+        },
+        {
+          "atlas_row": 8,
+          "atlas_column": 0
+        },
+        {
+          "atlas_row": 8,
+          "atlas_column": 0
+        },
+        {
+          "atlas_row": 8,
+          "atlas_column": 1
+        },
+        {
+          "atlas_row": 8,
+          "atlas_column": 1
+        },
+        {
+          "atlas_row": 8,
+          "atlas_column": 1
+        },
+        {
+          "atlas_row": 8,
+          "atlas_column": 2
+        },
+        {
+          "atlas_row": 8,
+          "atlas_column": 2
+        },
+        {
+          "atlas_row": 8,
+          "atlas_column": 2
+        },
+        {
+          "atlas_row": 8,
+          "atlas_column": 3
+        },
+        {
+          "atlas_row": 8,
+          "atlas_column": 3
+        },
+        {
+          "atlas_row": 8,
+          "atlas_column": 3
+        },
+        {
+          "atlas_row": 8,
+          "atlas_column": 4
+        },
+        {
+          "atlas_row": 8,
+          "atlas_column": 4
+        },
+        {
+          "atlas_row": 8,
+          "atlas_column": 4
+        },
+        {
+          "atlas_row": 8,
+          "atlas_column": 5
+        },
+        {
+          "atlas_row": 8,
+          "atlas_column": 5
+        },
+        {
+          "atlas_row": 8,
+          "atlas_column": 5
+        },
+        {
+          "atlas_row": 8,
+          "atlas_column": 5
+        }
+      ]
+    }
+  ],
+  "motion_clip_count": 15,
+  "motion_clips": [
+    {
+      "id": "idle-breathe",
+      "state": "idle",
+      "phase_range": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "idle-blink",
+      "state": "idle",
+      "phase_range": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "idle-mouth",
+      "state": "idle",
+      "phase_range": [
+        6,
+        9
+      ]
+    },
+    {
+      "id": "idle-soft-settle",
+      "state": "idle",
+      "phase_range": [
+        10,
+        19
+      ]
+    },
+    {
+      "id": "run-right",
+      "state": "running-right",
+      "phase_range": [
+        0,
+        19
+      ]
+    },
+    {
+      "id": "run-left",
+      "state": "running-left",
+      "phase_range": [
+        0,
+        19
+      ]
+    },
+    {
+      "id": "greeting",
+      "state": "waving",
+      "phase_range": [
+        0,
+        19
+      ]
+    },
+    {
+      "id": "jump",
+      "state": "jumping",
+      "phase_range": [
+        0,
+        19
+      ]
+    },
+    {
+      "id": "blocked-reaction",
+      "state": "failed",
+      "phase_range": [
+        0,
+        19
+      ]
+    },
+    {
+      "id": "needs-input",
+      "state": "waiting",
+      "phase_range": [
+        0,
+        19
+      ]
+    },
+    {
+      "id": "work-alternating-type-a",
+      "state": "running",
+      "phase_range": [
+        0,
+        4
+      ]
+    },
+    {
+      "id": "work-blink",
+      "state": "running",
+      "phase_range": [
+        5,
+        9
+      ]
+    },
+    {
+      "id": "work-read-screen",
+      "state": "running",
+      "phase_range": [
+        10,
+        14
+      ]
+    },
+    {
+      "id": "work-alternating-type-b",
+      "state": "running",
+      "phase_range": [
+        15,
+        19
+      ]
+    },
+    {
+      "id": "ready-review",
+      "state": "review",
+      "phase_range": [
+        0,
+        19
+      ]
+    }
+  ],
+  "synchronized_state_rows": {
+    "idle": true,
+    "running-right": true,
+    "running-left": true,
+    "waving": true,
+    "jumping": true,
+    "failed": true,
+    "waiting": true,
+    "running": true,
+    "review": true
+  },
+  "look_rows_unchanged": true,
+  "phase_map_exact": true,
+  "transparent_rgb_residue_pixels_per_frame": [
+    2212850,
+    2207985,
+    2068179,
+    2000584,
+    2115984,
+    2247898,
+    2189941,
+    2146597,
+    2036884,
+    2181522,
+    2135994,
+    2120421,
+    2016705,
+    2137690,
+    2101766,
+    2257120,
+    2249698,
+    2115156,
+    2223974,
+    2230649
+  ],
+  "errors": [],
+  "warnings": [
+    "All configured native states share one animated-WebP image clock and one duration timeline.",
+    "State entry does not reset the image clock; every configured phase sequence must be a valid periodic loop.",
+    "This wrapper adds visual submotions to the nine native triggers; it does not create new desktop event types."
+  ],
+  "source_atlas": "D:\\ChatGPT-Pets\\HatchPet-Feidudu-main\\assets\\spritesheet-static.webp",
+  "source_sha256": "9c9a834fbba141ce7aeeb30515d25f36990b195ddd351c560998b9dabef0a0e7",
+  "phase_manifest": "D:\\ChatGPT-Pets\\HatchPet-Feidudu-main\\assets\\state-phases.json",
+  "output_sha256": "2bc8011aac0c1f27c56f481d2893abc5f9be767ddc814ba7f22cd44d2d49c593"
+}
