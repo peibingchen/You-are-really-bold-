@@ -6,13 +6,16 @@
   <strong>一只会在 Codex 工作时作出回应的快乐金黄色伙伴。</strong><br>
   <a href="README.md">English</a> · <a href="操作手册与说明.md">中文操作手册与说明</a>
 </p>
+
 # HatchPet：肥嘟嘟
 
 > 提示：思路和源代码参考项目 https://github.com/srwang0506/HatchPet-CapybaraLulu.git
 
-肥嘟嘟（Feidudu）是一套自定义桌宠包，沿用源 HatchPet 项目的 Codex Sprite V2 工作流制作。角色依据用户提供的九张视觉参考图设计：金黄色、梨形胖身体、两只长耳朵、奶油色肚皮、硕大的红棕色鼻子、圆眼睛、两只短手、两只脚和一条弯曲尾巴。
+肥嘟嘟（Feidudu）是一套面向 Codex 桌面体验打造的完整桌宠。我们希望它能让漫长的编码过程多一点温度和生气，因此为它确立了鲜明而稳定的形象：金黄色梨形胖身体、两只圆润长耳、奶油色肚皮、醒目的红棕色大鼻子、明亮圆眼睛、短手、厚实双脚和一条弯曲尾巴。
 
-可直接安装的桌宠包位于 [`pet/`](pet/)；其中只有一个小型清单文件和一张动态 WebP 图集，不需要后台服务、网络请求或第三方可执行程序。
+这个仓库实现的并不只是一张装饰头像，而是一套完整的角色动画系统。肥嘟嘟会跟随指针方向、响应桌面交互，并在 Codex 工作、等待输入、等待审阅或任务受阻时给出清晰反应。所有动作都以真实桌宠尺寸下的辨识度为标准，活泼但不会抢走屏幕工作的注意力。
+
+可直接安装的桌宠包位于 [`pet/`](pet/)；其中只有一份紧凑清单和一张动态 WebP 图集，不需要后台服务、网络请求或第三方可执行程序。
 
 <p align="center">
   <img src="assets/feidudu-in-motion.png" alt="肥嘟嘟跑步、跳跃、打招呼、工作、等待与检查成果" width="100%">
@@ -26,7 +29,7 @@
 - 两条 Sprite V2 注视行覆盖 16 个方向。
 - 透明 192 × 208 单元格，图集规格为 8 × 11、1536 × 2288。
 - 提供静态 RGBA 备用图集，适合减少动态效果或调试。
-- 保留完整源行、拆分帧、预览、验证报告和构建脚本。
+- 保留完整生产图行、拆分帧、预览、验证报告和构建脚本。
 
 ## 快速开始
 
@@ -102,7 +105,7 @@ python scripts/install.py --codex-home .tmp-codex
 
 透明独立帧位于 [`assets/frames/`](assets/frames/)，同步运行相位位于 [`assets/state-phases/`](assets/state-phases/)，轻量动画预览位于 [`assets/gifs/`](assets/gifs/)。
 
-九张参考图和生成阶段的工作图分别保留在 [`references/source-images/`](references/source-images/) 与 [`assets/source/`](assets/source/) 中，方便以后按同一角色规范复核改动。最终采用的内置图像生成提示词集合记录在 [`references/IMAGEGEN-PROMPTS.md`](references/IMAGEGEN-PROMPTS.md)。
+面向维护者，仓库在 [`references/source-images/`](references/source-images/) 中保留内部美术方向档案，在 [`assets/source/`](assets/source/) 中保留生成阶段的工作图行。它们与角色规范共同保证后续动作迭代可复现、形象一致。最终采用的内置图像生成提示词集合记录在 [`references/IMAGEGEN-PROMPTS.md`](references/IMAGEGEN-PROMPTS.md)。
 
 ## Sprite V2 规格
 
@@ -137,7 +140,7 @@ Copy-Item assets\spritesheet-static.webp "$HOME\.codex\pets\feidudu\spritesheet.
 
 ## 重建与验证
 
-仓库同时保留原项目的通用 `hatch-pet` 工具和肥嘟嘟专用的归一化辅助脚本。
+仓库提供可复用的 `hatch-pet` Sprite V2 工具和肥嘟嘟专用的归一化辅助脚本。
 
 根据已签入的静态与动态图集重建文档展示图：
 
@@ -188,7 +191,7 @@ HatchPet-Feidudu-main/
 │   ├── runtime-previews/        # 相位表与动态 WebP 预览
 │   ├── spritesheet-static.webp  # 减少动态效果/调试图集
 │   └── state-phases.json        # 运行相位映射
-├── references/source-images/    # 九张参考图与联系表
+├── references/source-images/    # 内部美术方向档案与联系表
 ├── hatch-pet/                   # 可复用 Sprite V2 构建和质检工具
 ├── scripts/                     # 肥嘟嘟构建、展示与安装脚本
 ├── README.md                    # 英文项目说明
@@ -202,10 +205,10 @@ HatchPet-Feidudu-main/
 
 修改动作或打包逻辑前，请阅读 [`AGENTS.md`](AGENTS.md) 和 [`CONTRIBUTING.md`](CONTRIBUTING.md)。
 
-## 参考图与分发说明
+## 美术资产与分发
 
-九张用户提供的图片仅作为角色设计参考，其中可能包含第三方平台标记或作者信息；生成的桌宠素材没有保留这些标记。再次分发参考文件或衍生美术前，请确认你拥有所需权利。仓库说明见 [`NOTICE`](NOTICE)。
+正式运行包与开发阶段的美术档案、生产记录彼此分离。制作最小发行包时，只需分发 [`pet/`](pet/) 和必要文档；如需连同完整开发档案发布，请先核对其中视觉材料的权利与分发范围。仓库声明见 [`NOTICE`](NOTICE)。
 
 ## 许可证
 
-项目代码遵循 [`LICENSE`](LICENSE) 中的许可条款。美术素材与用户提供的参考图可能适用不同权利，请在分发前阅读 [`NOTICE`](NOTICE)。
+项目代码遵循 [`LICENSE`](LICENSE) 中的许可条款。视觉资产与开发材料可能适用不同权利，请在分发前阅读 [`NOTICE`](NOTICE)。

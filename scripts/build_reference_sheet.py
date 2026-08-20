@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build a compact contact sheet from Feidudu's nine source references."""
+"""Build a compact art-direction board from nine Feidudu character studies."""
 
 from __future__ import annotations
 
@@ -19,7 +19,7 @@ HEADER = 54
 def main() -> None:
     sources = sorted(SOURCE_DIR.glob("reference-??.jpg"))
     if len(sources) != 9:
-        raise SystemExit(f"expected 9 references, found {len(sources)}")
+        raise SystemExit(f"expected 9 character studies, found {len(sources)}")
 
     width = CARD_SIZE[0] * 3 + GAP * 4
     height = (CARD_SIZE[1] + HEADER) * 3 + GAP * 4
@@ -35,7 +35,7 @@ def main() -> None:
         left = GAP + column * (CARD_SIZE[0] + GAP)
         top = GAP + row * (CARD_SIZE[1] + HEADER + GAP)
         sheet.paste(card, (left, top + HEADER))
-        draw.text((left + 8, top + 14), f"REFERENCE {index + 1:02d}", fill="#fff4c7", font=font)
+        draw.text((left + 8, top + 14), f"DESIGN STUDY {index + 1:02d}", fill="#fff4c7", font=font)
 
     sheet.save(OUTPUT, quality=94, subsampling=0)
     print(OUTPUT)

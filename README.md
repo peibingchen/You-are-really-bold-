@@ -6,13 +6,16 @@
   <strong>A cheerful golden companion that reacts while Codex works.</strong><br>
   <a href="README.zh-CN.md">简体中文</a> · <a href="操作手册与说明.md">中文 operation manual</a>
 </p>
+
 # HatchPet: Feidudu
 
 > Hint: For ideas and source code, please refer to the project https://github.com/srwang0506/HatchPet-CapybaraLulu.git
 
-Feidudu (肥嘟嘟) is a custom desktop-pet pack built with the same Codex Sprite V2 workflow as the source HatchPet project. The character is derived from the nine supplied visual references: a golden-yellow, pear-shaped, long-eared creature with a cream belly, a large reddish-brown nose, round eyes, two short arms, two feet, and one curved tail.
+Feidudu (肥嘟嘟) is a production-ready Codex desktop pet built to make long coding sessions feel warmer, livelier, and a little less mechanical. We designed Feidudu as a cheerful golden companion with a plump pear-shaped body, long rounded ears, a cream belly, an oversized reddish-brown nose, bright round eyes, short arms, sturdy feet, and a curved tail.
 
-The installable pack lives in [`pet/`](pet/). It contains a small manifest and one animated WebP atlas; no runtime service, network request, or third-party executable is required.
+This repository treats the character as a complete animation system rather than a decorative avatar. Feidudu follows pointer direction, moves with the desktop interaction, and responds clearly when Codex is working, waiting for input, ready for review, or blocked. The motion language stays playful and readable at actual desktop-pet size without competing with the work on screen.
+
+The ready-to-install pack lives in [`pet/`](pet/). It contains a compact manifest and one animated WebP atlas; no background service, network request, or third-party executable is required.
 
 <p align="center">
   <img src="assets/feidudu-in-motion.png" alt="Feidudu running, jumping, greeting, working, waiting, and reviewing" width="100%">
@@ -26,7 +29,7 @@ The installable pack lives in [`pet/`](pet/). It contains a small manifest and o
 - Sixteen gaze directions arranged over the two Sprite V2 look rows.
 - Transparent 192 × 208 cells in an 8 × 11, 1536 × 2288 atlas.
 - A static RGBA fallback atlas for reduced-motion use and easy visual debugging.
-- Complete source rows, extracted frames, previews, validation reports, and build scripts.
+- Complete production rows, extracted frames, previews, validation reports, and build scripts.
 
 ## Quick start
 
@@ -102,7 +105,7 @@ All nine native state rows share one animated-WebP clock. Entering a state does 
 
 Individual transparent frames are in [`assets/frames/`](assets/frames/), synchronized runtime phases in [`assets/state-phases/`](assets/state-phases/), and lightweight animation previews in [`assets/gifs/`](assets/gifs/).
 
-The source references and generated working rows are retained under [`references/source-images/`](references/source-images/) and [`assets/source/`](assets/source/) so future changes can be reviewed against the same character contract. The accepted built-in image-generation prompt set is recorded in [`references/IMAGEGEN-PROMPTS.md`](references/IMAGEGEN-PROMPTS.md).
+For maintainers, the repository keeps an internal art-direction archive under [`references/source-images/`](references/source-images/) and generated working rows under [`assets/source/`](assets/source/). Together with the character contract, these files make future animation changes reproducible and visually consistent. The accepted built-in image-generation prompt set is recorded in [`references/IMAGEGEN-PROMPTS.md`](references/IMAGEGEN-PROMPTS.md).
 
 ## Sprite V2 contract
 
@@ -137,7 +140,7 @@ Restart the client after replacing the file. Run the installer again to restore 
 
 ## Rebuild and validation
 
-The repository keeps the original generic `hatch-pet` tooling plus Feidudu-specific normalization helpers.
+The repository includes reusable `hatch-pet` Sprite V2 tooling plus Feidudu-specific normalization helpers.
 
 Rebuild documentation galleries from the checked-in static and runtime atlases:
 
@@ -188,7 +191,7 @@ HatchPet-Feidudu-main/
 │   ├── runtime-previews/        # phase sheets and animated WebP previews
 │   ├── spritesheet-static.webp  # reduced-motion/debug atlas
 │   └── state-phases.json        # runtime phase mapping
-├── references/source-images/    # nine supplied references + contact sheet
+├── references/source-images/    # internal art-direction studies and contact sheet
 ├── hatch-pet/                   # reusable Sprite V2 build and QA tools
 ├── scripts/                     # Feidudu build, gallery, and install helpers
 ├── README.md                    # English project README
@@ -202,10 +205,10 @@ Keep Feidudu's defining silhouette and anatomy stable: golden pear-shaped body, 
 
 See [`AGENTS.md`](AGENTS.md) and [`CONTRIBUTING.md`](CONTRIBUTING.md) before changing motion or packaging.
 
-## Reference and distribution note
+## Artwork and distribution
 
-The nine supplied images are retained as design references and may carry third-party platform marks or authorship information. The generated pet assets intentionally omit those marks. Confirm that you have the necessary rights before redistributing either the reference files or derivative artwork. See [`NOTICE`](NOTICE) for repository notices.
+The installable runtime is intentionally separated from development-only artwork and production records. For a minimal release, distribute [`pet/`](pet/) together with the relevant documentation. Review the ownership and distribution status of visual-development materials before including the full archive in another release. See [`NOTICE`](NOTICE) for repository notices.
 
 ## License
 
-Project code is provided under the license in [`LICENSE`](LICENSE). Artwork and supplied references may be subject to separate rights; review [`NOTICE`](NOTICE) before redistribution.
+Project code is provided under the license in [`LICENSE`](LICENSE). Visual assets and development materials may be subject to separate rights; review [`NOTICE`](NOTICE) before redistribution.

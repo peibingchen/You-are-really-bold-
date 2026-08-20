@@ -9,5 +9,5 @@
 - Preserve the 20-phase synchronized runtime, 15 named visual clips, and 16 unchanged gaze cells. Codex still has exactly nine native triggers; never describe the visual clips as new event types.
 - Keep every figure fully inside its 192 × 208 cell with clean transparency, stable scale, stable foot baseline where appropriate, and no duplicate or missing limbs.
 - Rebuild galleries with `python scripts/build_gallery.py` and `python scripts/build_readme_assets.py`, then run the README validation commands and unit tests before proposing asset changes.
-- Source references may carry third-party rights. Do not publish or redistribute them without confirming authorization, and never recreate platform watermarks in generated output.
+- Visual-development materials may carry separate rights. Confirm authorization before publishing the full art archive, and never recreate platform watermarks in generated output.
 - Do not commit caches, temporary Codex-home test installs, rejected generations, or files containing machine-specific absolute paths.

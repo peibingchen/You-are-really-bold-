@@ -1,12 +1,12 @@
 # Feidudu image-generation prompt record
 
-The artwork in this repository was created with the built-in image-generation mode. The nine supplied references were first arranged into `source-images/reference-contact-sheet.jpg`; the contact sheet and selected full-size references were used together so all nine images informed the character contract.
+The artwork in this repository was created with the built-in image-generation mode. Nine internal character studies were organized into `source-images/reference-contact-sheet.jpg`, forming a single art-direction board for silhouette, proportions, materials, palette, and expression continuity.
 
 ## Shared character and output contract
 
 The following constraints were carried through every accepted generation:
 
-> Create Feidudu as a polished 3D soft-vinyl toy mascot based on the supplied nine-image reference set: a golden-yellow pear-shaped chubby body, two long rounded ears, cream oval belly, oversized dark reddish-brown oval nose, round white eyes with dark-brown pupils, exactly two short arms, exactly two feet, and one thick curved tail. No clothing. Keep the same identity, proportions, materials, colors, face construction, and warm studio lighting across every frame. Render the complete character with no crop and no text, logo, watermark, border, scenery, floor, cast shadow, duplicate body, or extra limb. Use a perfectly uniform `#FF00FF` chroma background with hard panel separation and no magenta foreground object.
+> Create Feidudu as a polished 3D soft-vinyl toy mascot using the repository's nine-image character design board: a golden-yellow pear-shaped chubby body, two long rounded ears, cream oval belly, oversized dark reddish-brown oval nose, round white eyes with dark-brown pupils, exactly two short arms, exactly two feet, and one thick curved tail. No clothing. Keep the same identity, proportions, materials, colors, face construction, and warm studio lighting across every frame. Render the complete character with no crop and no text, logo, watermark, border, scenery, floor, cast shadow, duplicate body, or extra limb. Use a perfectly uniform `#FF00FF` chroma background with hard panel separation and no magenta foreground object.
 
 The orange laptop is a locked prop shared only by the working and review rows. Hearts are expression props, not part of the neutral character.
 
